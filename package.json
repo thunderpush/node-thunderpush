@@ -1,0 +1,49 @@
+{
+  "name": "thunderpush",
+  "version": "0.0.0",
+  "main": "lib/thunderpush.js",
+  "description": "Thunderpush API library",
+  "homepage": "https://github.com/thunderpush",
+  "bugs": "https://github.com/thunderpush/node-thunderpush/issues",
+  "author": {
+    "name": "Ryan Schumacher",
+    "email": "ryan@38pages.com",
+    "url": "https://github.com/jrschumacher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thunderpush/node-thunderpush"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "node-thunderpush",
+    "thunderpush",
+    " push",
+    " sockjs"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "thunderpush-cli": "./cli.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "colors": "^0.6.2",
+    "commander": "^2.3.0",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1"
+  }
+}
