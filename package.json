@@ -1,6 +1,6 @@
 {
   "name": "thunderpush",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/thunderpush.js",
   "description": "Thunderpush API library",
   "homepage": "https://github.com/thunderpush",
